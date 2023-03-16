@@ -5,4 +5,6 @@ INSERT INTO AddressBook (first_name, last_name, address, city, state, zip, phone
 
 select * from AddressBook
 
-SELECT * FROM AddressBook WHERE city = 'EastBay' ORDER BY last_name, first_name;
+ALTER TABLE AddressBook 
+  ADD name VARCHAR(100), 
+      contact_type VARCHAR(50) 
