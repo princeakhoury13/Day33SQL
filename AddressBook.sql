@@ -1,3 +1,3 @@
-INSERT INTO AddressBook (first_name, last_name, address, city, state, zip, phone, email) VALUES ('Tony', 'Stark', '123 Main St', 'NYC', 'NY', '12345', '555-555-5555', 'stark@email.com');
+UPDATE AddressBook SET email = 'newemail@email.com' WHERE first_name = 'Tony'
 
 select * from AddressBook
