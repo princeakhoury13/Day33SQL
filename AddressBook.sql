@@ -6,4 +6,6 @@ INSERT INTO AddressBook (first_name, last_name, address, city, state, zip, phone
 select * from AddressBook
  
 
-SELECT contact_type, COUNT(*) AS count FROM AddressBook GROUP BY contact_type;
+INSERT INTO AddressBook (first_name, last_name, address, city, state, zip, phone, email, name, contact_type)
+VALUES ('Doctor', 'Strange', '123 Main St', 'New York', 'NY', '10001', '555-555-5555', 'strange@example.com', 'A3', 'Friends'),
+       ('Doctor', 'Strange', '123 Main St', 'New York', 'NY', '10001', '555-555-5555', 'strange@example.com', 'A1', 'Family');
