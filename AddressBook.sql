@@ -5,4 +5,4 @@ INSERT INTO AddressBook (first_name, last_name, address, city, state, zip, phone
 
 select * from AddressBook
 
-SELECT city, COUNT(*) AS count FROM AddressBook GROUP BY city
+SELECT * FROM AddressBook WHERE city = 'EastBay' ORDER BY last_name, first_name;
